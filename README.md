@@ -55,19 +55,20 @@ Privacy Core: A custom-built module for ad-blocking and anti-tracking functional
 (This section would include instructions on how to build and run the project locally)
 
 # Clone the repository
-git clone [https://github.com/your-username/ai-mobile-browser.git](https://github.com/your-username/ai-mobile-browser.git)
+git clone [https://github.com/sgrkannada/AI-Bowser.git]
 
 # Navigate to the project directory
 cd ai-mobile-browser
 
-# Install dependencies
-npm install
+# Get dependencies
+flutter pub get
 
 # Run on iOS
-npx react-native run-ios
+flutter run -d ios
 
 # Run on Android
-npx react-native run-android
+flutter run -d android
+
 
 🤝 Contributing
 We welcome contributions from the community! If you'd like to help improve the AI-Powered Mobile Browser, please check out our CONTRIBUTING.md file for guidelines on how to get started.
